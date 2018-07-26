@@ -86,9 +86,31 @@ hr.light {
   max-width: 200px;
   background-color: white;
 }
-.backgroung-section {
+.background-section {
   background-color: white;
 }
 .thumbnail {
-    border: 1px solid #643ccc00 !important; 
+    border: 1px solid #643ccc00 !important;
+}
+.btn-default{
+  color: white !important;
+  background-color: #ff4757 !important;
+  border-color: #ff4757 !important;
+}
+a:focus, a:hover {
+    color: white !important;
+    text-decoration: none !important;
+    background-color: #0c2461 !important;
+    border-color: #0c2461 !important;
+}
+.tamb-img {
+  display: block !important;
+  max-width: 100% !important;
+  height: 420px !important;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+    height: auto;
 }
