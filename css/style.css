@@ -24,10 +24,10 @@ header {
 }
  header .header-content .header-content-inner h1 {
    font-weight: 700;
-   text-transform: uppercase;
    margin-top: 0;
    margin-bottom: 0;
    font-size: 30px;
+   font-kerning:
    text-align: center;
  }
  @media (min-width: 768px) {
@@ -69,6 +69,19 @@ header {
  }
  .shadow {
     text-shadow: black 0.1em 0.1em 0.5em;
+ }
+ .titulo {
+   font-family: 'Abril Fatface', cursive;
+ }
+ .text-font {
+   font-family: 'Roboto', sans-serif;
+ }
+ footer {
+   font size: 20px;
+   background-color: white;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   color: #ff4757;
  }
 .proximo {
   margin-top: -1px;
